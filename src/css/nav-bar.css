@@ -1,0 +1,13 @@
+.nav-bar-underline {
+  border-bottom: 1px solid #dadada;
+}
+
+.nav-item {
+  font-size: 22px;
+  font-family: Gnuolane, "Helvetica Neue", Helvetica, Arial ;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-around;
+}
