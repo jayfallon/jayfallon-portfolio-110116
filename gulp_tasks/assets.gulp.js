@@ -4,6 +4,7 @@ var gulp = require('gulp'),
 requireDir = require('require-dir'),
 changed = require('gulp-changed'),
 jshint = require('gulp-jshint'),
+dependencies = require('gulp-html-dependencies'),
 config = require('../config');
 
 //pipe images for website
@@ -18,13 +19,6 @@ gulp.task('fonts', function(){
   return gulp.src(config.fontsSource + '**/*.{eot,svg,ttf,woff,woff2}')
     .pipe(changed(config.fontsDestination + '**/*.{eot,svg,ttf,woff,woff2}'))
     .pipe(gulp.dest(config.fontsDestination));
-});
-
-// - pipe vendor for website
-gulp.task('vendor', function () {
-  return gulp.src([config.vendorSource + '**/*'], {
-      base: 'src'
-  }).pipe(gulp.dest(config.vendorDestination));
 });
 
 // - insert javascript quality checks

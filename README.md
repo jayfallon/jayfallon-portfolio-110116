@@ -7,7 +7,7 @@ My portfolio for Fall 2016
 Download node at [nodejs.org](http://nodejs.org) and install it, if you haven't already.
 
 ```sh
-npm install jayfallon-portfolio-110116 --save
+npm install --save
 ```
 
 
@@ -15,6 +15,7 @@ npm install jayfallon-portfolio-110116 --save
 ## Dependencies
 
 - [autoprefixer](): Parse CSS and add vendor prefixes to CSS rules using values from the Can I Use website
+- [bootstrap](https://github.com/twbs/bootstrap): The most popular front-end framework for developing responsive, mobile first projects on the web.
 - [browser-sync](): Live CSS Reload &amp; Browser Syncing
 - [cssnano](): A modular minifier, built on top of the PostCSS ecosystem.
 - [es6-promise](https://github.com/stefanpenner/es6-promise): A lightweight library that provides tools for organizing asynchronous code
@@ -22,11 +23,12 @@ npm install jayfallon-portfolio-110116 --save
 - [gulp-changed](): Only pass through changed files
 - [gulp-file-include](): a gulp plugin for file include
 - [gulp-filter](): Filter files in a vinyl stream
+- [gulp-html-dependencies](https://github.com/demsking/gulp-html-dependencies): Parse your HTML file and copy bower/npm files to your destination directory
 - [gulp-jshint](https://github.com/spalger/gulp-jshint): JSHint plugin for gulp
 - [gulp-postcss](https://github.com/postcss/gulp-postcss): PostCSS gulp plugin
 - [gulp-prettify](): Prettify, format, beautify HTML.
 - [gulp-sourcemaps](): Source map support for Gulp.js
-- [gulp-surge](): Easily deploy to Surge with Gulp.
+- [gulp-surge](https://github.com/surge-sh/gulp-surge): Easily deploy to Surge with Gulp.
 - [gulp-util](): Utility functions for gulp plugins
 - [gulp-watch](https://github.com/floatdrop/gulp-watch): Watch, that actually is an endless stream
 - [jshint](https://github.com/jshint/jshint): Static analysis tool for JavaScript
@@ -40,7 +42,7 @@ npm install jayfallon-portfolio-110116 --save
 - [postcss-image-set](https://github.com/Alex499/postcss-image-set): PostCSS plugin for fallback image-set
 - [postcss-mixins](): PostCSS plugin for mixins
 - [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem): A CSS post-processor that converts px to rem.
-- [postcss-resemble-image](https://github.com/ben-eb/postcss-resemble-image): Provide a gradient fallback for an image that loosely resembles the original.
+- [postcss-resemble-image](): Provide a gradient fallback for an image that loosely resembles the original.
 - [postcss-round-subpixels](): PostCSS plugin that rounds sub-pixel values to the nearest full pixel.
 - [postcss-short](): Short creates and extends shorthand properties in CSS
 - [postcss-simple-vars](): PostCSS plugin for Sass-like variables

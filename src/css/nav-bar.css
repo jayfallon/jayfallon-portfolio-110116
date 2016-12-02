@@ -7,6 +7,10 @@
   font-family: Gnuolane, "Helvetica Neue", Helvetica, Arial ;
 }
 
+.navbar {
+  padding-bottom: 0;
+}
+
 .navbar-nav {
   display: flex;
   justify-content: space-around;

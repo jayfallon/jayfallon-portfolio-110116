@@ -6,7 +6,7 @@ var gulp        				= require('gulp'),
     config              = require('../config');
 
 // - sync watches and reload
-gulp.task('sync-watch', ['build:css', 'watch:css', 'build:html', 'images', 'fonts', 'jshint', 'vendor', 'deploy'], browserSync.reload)
+gulp.task('sync-watch', ['dependencies', 'build:css', 'watch:css', 'build:html', 'images', 'fonts', 'jshint', 'deploy'], browserSync.reload)
 
 // - watch directories
 gulp.task('watch', function() {

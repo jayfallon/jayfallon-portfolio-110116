@@ -7,8 +7,6 @@
   "imgDestination": "build/img/",
   "fontsSource": "src/fonts/",
   "fontsDestination": "build/fonts/",
-  "vendorSource": "src/vendor/",
-  "vendorDestination": "build/",
   "jsSource": "src/js/",
   "jsDestination": "build/js/"
 }
