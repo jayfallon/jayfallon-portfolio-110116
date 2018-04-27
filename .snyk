@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.11.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - browser-sync > connect > debug:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > serve-index > debug:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > localtunnel > debug:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > serve-static > send > debug:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > connect > finalhandler > debug:
+        patched: '2018-04-27T02:25:05.709Z'
+  'npm:hawk:20160119':
+    - gulp-surge > surge > request > hawk:
+        patched: '2018-04-27T02:25:05.709Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-04-27T02:25:05.709Z'
+    - gulp-surge > surge > fstream-ignore > minimatch:
+        patched: '2018-04-27T02:25:05.709Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-04-27T02:25:05.709Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-04-27T02:25:05.709Z'
+  'npm:ms:20170412':
+    - browser-sync > connect > debug > ms:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > connect > finalhandler > debug > ms:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > serve-index > debug > ms:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > serve-static > send > debug > ms:
+        patched: '2018-04-27T02:25:05.709Z'
+    - browser-sync > serve-static > send > ms:
+        patched: '2018-04-27T02:25:05.709Z'
+    - postcss-flexbox > ava > ms:
+        patched: '2018-04-27T02:25:05.709Z'
+  'npm:qs:20170213':
+    - browser-sync > qs:
+        patched: '2018-04-27T02:25:05.709Z'
+  'npm:request:20160119':
+    - gulp-surge > surge > request:
+        patched: '2018-04-27T02:25:05.709Z'
+  'npm:tar:20151103':
+    - gulp-surge > surge > tar:
+        patched: '2018-04-27T02:25:05.709Z'
+    - gulp-surge > surge > tar.gz > tar:
+        patched: '2018-04-27T02:25:05.709Z'
