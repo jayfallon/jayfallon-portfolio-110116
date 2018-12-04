@@ -1,0 +1,53 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - postcss-resemble-image > asset-resolver > debug:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:hawk:20160119':
+    - gulp-surge > surge > request > hawk:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:hoek:20180212':
+    - postcss-resemble-image > asset-resolver > request > hawk > hoek:
+        patched: '2018-12-04T03:33:55.076Z'
+    - postcss-resemble-image > asset-resolver > request > hawk > boom > hoek:
+        patched: '2018-12-04T03:33:55.076Z'
+    - postcss-resemble-image > asset-resolver > request > hawk > sntp > hoek:
+        patched: '2018-12-04T03:33:55.076Z'
+    - postcss-resemble-image > asset-resolver > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:http-signature:20150122':
+    - gulp-surge > surge > request > http-signature:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:mime:20170907':
+    - postcss-resemble-image > asset-resolver > mime:
+        patched: '2018-12-04T03:33:55.076Z'
+    - gulp-surge > surge > request > form-data > mime:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:minimatch:20160620':
+    - gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2018-12-04T03:33:55.076Z'
+    - gulp-surge > surge > fstream-ignore > minimatch:
+        patched: '2018-12-04T03:33:55.076Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2018-12-04T03:33:55.076Z'
+    - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:ms:20170412':
+    - postcss-resemble-image > asset-resolver > debug > ms:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:request:20160119':
+    - gulp-surge > surge > request:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:tar:20151103':
+    - gulp-surge > surge > tar:
+        patched: '2018-12-04T03:33:55.076Z'
+    - gulp-surge > surge > tar.gz > tar:
+        patched: '2018-12-04T03:33:55.076Z'
+  'npm:tunnel-agent:20170305':
+    - gulp-surge > surge > request > tunnel-agent:
+        patched: '2018-12-04T03:33:55.076Z'
+    - postcss-resemble-image > asset-resolver > request > tunnel-agent:
+        patched: '2018-12-04T03:33:55.076Z'
