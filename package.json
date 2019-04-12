@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "autoprefixer": "^6.5.1",
-    "bootstrap": "4.0.0-alpha.5",
+    "bootstrap": "4.0.0",
     "browser-sync": "^2.17.5",
     "cssnano": "^3.8.0",
     "es6-promise": "^4.0.5",
